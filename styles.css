@@ -1,0 +1,138 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+
+.main_nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    height: 100px;
+    border-bottom: solid #dbdbdb 1px;
+    background: rgb(17, 77, 166);
+    padding: 0 20px;
+    z-index: 1000;
+}
+
+.logo_ministerio {
+    display: flex;
+    align-items: center;}
+
+.logo_ministerio img {
+    width: 300px;
+    height: auto;
+    margin-right: 15px;
+}
+
+.Trama_Título {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    gap: 20px;
+    width: 100%;
+    margin-top: 10px;
+    color: #fefefe;
+    text-shadow: 1px 1px 2px black;
+}
+
+.sub_nav {
+    position: fixed;
+    top: 50px;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(17, 77, 166); 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #abcaff;
+    z-index: 999;
+    box-shadow: 5px 5px 5px rgb(186, 186, 186);
+}
+
+.sub_nav_menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style: none; 
+    gap:80px;
+}
+
+.sub_nav_menu li a {
+    margin-top:50px;
+    color:#ffffff;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 50px;
+    display: inline-block;
+    text-shadow: 1px 1px 2px black;
+
+}
+
+
+.contenedor_grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 20px;
+    margin: auto;
+    margin-top: 200px;
+    max-width: 1200px;
+}
+
+.card {
+    background-color: rgb(161, 207, 248);
+    border-radius: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 5px rgba(3, 3, 3, 0.05);
+}
+
+.card h2 {
+    margin-bottom: 10px;
+    border-bottom: 1px solid rgb(231, 231, 231);
+}
+
+.card p {
+    font-size: 13px;
+    margin: 6;
+}
+
+.boton {
+    display: flex;
+    align-items: center;
+    margin-left: 250px;
+}
+
+.footercontainer {
+    width: 100%; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    padding: 20px;
+    background-color: rgb(17, 77, 166);
+    color: white;
+}
+
+.footer_card img {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+
+.derechos {
+    text-align: center;
+}
